@@ -31,7 +31,7 @@ El flujo ETL fue desarrollado en **Python (Pandas + SQLAlchemy)**:
    - Limpieza y normalización de datos
    - Creación de claves primarias y foráneas
    - Generación de las dimensiones
-   - Enriquecimiento con información geográfica (latitud y longitud) utilizando el dataset [worldcities](https://simplemaps.com/data/world-cities)
+   - Información geográfica (latitud y longitud) utilizando el dataset [worldcities](https://simplemaps.com/data/world-cities)
 
 3. **Carga (Load)**  
    - Inserción de los datos en una base **PostgreSQL local** utilizando `SQLAlchemy`
